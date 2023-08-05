@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/panier.css">
+    <title>vievievitraux</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="./index.html">
+                <img id="logoimg" src="images/logo1.svg" alt="mon jolie logo">
+            </a>
+        </div>
+        <div class="titre">
+            <h1 id="title">Vie Vie Vitraux</h1>
+            <img src="images/vague.svg" alt="" id="vague">
+        </div>
+        <nav class="navbar">
+            <div class=navbarune>
+
+                <a href="./evenements.html"> Evenements </a>
+                <a href="./apropos.html"> A propos </a>
+                <a href="./Contact.html"> Contact </a>
+
+            </div>
+            <div class="navbardeux">
+                <a href="./index.html">Acceuil</a>
+                <a href="./Boutique.html">Boutique</a>
+            </div>
+        </nav>
+        <div class="search">
+            <input type="search" id="search" name="recherche" value="">
+            <i id="shop" class="fa-solid fa-cart-shopping" style="color: #030303"; ></i>
+            <i id="userLogo" class="fa-solid fa-user" style="color: #000000;"></i>
+        </div>
+    </header>
+    
+    <main>
+        <h2>Mon panier</h2>
+        <section id="panier">
+            <article class="article_un article">
+                <div class="img_prix">
+                    <img src="images/article_1.jpg" alt="">
+                    <ul>
+                        <li>Nom du produit :</li>
+                        <li>Prix :</li>
+                        <li>Date de disponibilité :</li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-trash" style="color: #f4f5f6;"></i>
+            </article>
+            <article class="article_deux article">
+                <div class="img_prix">
+                <img src="images/article_2.jpg" alt="">
+                <ul>
+                    <li>Nom du produit :</li>
+                    <li>Prix :</li>
+                    <li>Date de disponibilité :</li>
+                </ul>
+                </div>
+                <i class="fa-solid fa-trash" style="color: #f4f5f6;"></i>
+            </article>
+            <article class="article_trois article">
+            <div class="img_prix">
+                <img src="images/article_3.jpg" alt="">
+                <ul>
+                    <li>Nom du produit :</li>
+                    <li>Prix :</li>
+                    <li>Date de disponibilité :</li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-trash" style="color: #f4f5f6;"></i>
+            </article>
+            <article class="fdp">
+                <ul>
+                    <li>Frais de ports :</li>
+                    <li>Total HT:</li>
+                    <li>T.V.A :</li>
+                    <li>Code promo : <input type="text" name="promo" id="promo"></li>
+                    <li>Total TTC :</li>
+                </ul>
+                <a href="envoiepanier.html">Valider le panier</a>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+
+        <div class="contact">
+            <h4>Nous contacter :</h4>
+            <h3><i class="fa-solid fa-phone"></i>06.35.26.98.74</h3>
+            <h3><i class="fa-solid fa-envelope"></i>vievievitraux@gmail.com</h3>
+        </div> 
+
+        <div id="news">
+            <label for="mailon">Inscription à notre Newsletter :</label>
+            <input type="email" id="newsletter" name="mailon">
+            <div class="cgv">
+                <a href="./CG.html">Conditions Générales</a>,
+                <a href="./ML.html">Mentions Légales</a>,
+                <a href="./DP.html">Données Personnelles</a>,
+            </div>
+        </div>
+        <div class="reseau">
+            <h4 class="foot">Mes réseaux :</h4>
+            <ul class="liste_foother">
+                <li><i class="fa-brands fa-facebook" style="color: #030303;"></i></li>
+                <li><i class="fa-brands fa-instagram" style="color: #030303;"></i></li>
+                <li><i class="fa-brands fa-twitter" style="color: black;"></i></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/7658c89548.js" crossorigin="anonymous"></script>
+
+</html>

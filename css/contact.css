@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url(../font/Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sansita';
+    src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
+}
+
+:root {
+    --couleurBody: #1D1C1C;
+    --couleurFondElement: #554D74;
+}
+
+body {
+    background-color: #1D1C1C;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    max-height: 1000px;
+    margin-top: 100px;
+    color: white;
+    font-family: 'sansita';
+    word-spacing: 5px;
+    text-shadow: 1px 0 5px;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+h2 {
+    text-align: center;
+    display: flex;
+    margin: 10%;
+}
+
+h3 {
+    display: flex;
+    text-align: center;
+    margin: 5%;
+    padding-right: 40%; 
+}
+
+.p {
+    margin-top: -2%;
+}
+
+#infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 250px;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+#popup {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    position: absolute;
+    margin-top: 240px;
+    margin-bottom: 430px;
+    padding-bottom: 100px;
+    margin-left: 5%;
+    background-color: #554D74;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px white;
+    visibility: hidden;
+}
+
+label {
+    display: flex;
+    margin-left: 5%;
+}
+
+input, textarea {
+    font-family: 'sansitra';
+    color: white;
+    background-color: #554D74;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 5%; 
+}
+
+input#nom, input#prénom, input#mail, input#titre {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    padding-left: 10px;
+    height: 16px;
+    width: 200px;
+}
+
+input#envoyer {
+    color: white;
+    text-shadow: 1px 0 5px;
+    font-size: 20px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+}
+
+iframe {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+

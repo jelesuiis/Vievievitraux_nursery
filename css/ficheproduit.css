@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url(../font/Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sansita';
+    src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
+}
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    display: flex;
+    border-top: solid 2px black;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+main {
+    padding: 20px;
+    margin: 20px;
+}
+
+.gauche {
+    width : 90%;
+    padding: 20px;
+    background-color: rgb(88, 69, 105);
+    border-radius: 20%;
+    box-shadow: 0px 10px 10px;
+    margin-right: 50px;
+}
+
+#imagearticle{
+    width : 70%;
+}
+
+.droite {
+    padding: 20px;
+}
+
+
+
+.bouton:hover{
+    background-color: rgb(54, 94, 139);
+    color: white;
+}
+
+.bouton {
+    text-decoration: none;
+    background-color: rgb(88, 69, 105);
+    color: white;
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 20%;
+    box-shadow: 0px 2px 2px;
+}
+
+.Avis1 {
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(88, 69, 105);
+    border-radius: 20%;
+    text-align: center;
+    box-shadow: 0px 10px 10px;
+}
+
+.Avis2 {
+    padding: 20px;
+    width:200px;
+    height: 150px;
+    background-color: rgb(88, 69, 105);
+    border-radius: 20%;
+    text-align: center;
+    box-shadow: 0px 10px 10px;
+}
+
+#photo {
+    width: 30%;
+    height: 30%;
+}
+
+.gauche img {
+    border-radius: 20px;
+}
+
+section img {
+    border-radius: 10px;
+}

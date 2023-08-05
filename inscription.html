@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/boutique.css">
+    <link rel="stylesheet" href="css/inscription.css">
+    <title>vievievitraux</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="./index.html">
+                <img id="logoimg" src="images/logo1.svg" alt="mon jolie logo">
+            </a>
+        </div>
+        <div class="titre">
+            <h1 id="title">Vie Vie Vitraux</h1>
+            <img src="images/vague.svg" alt="" id="vague">
+        </div>
+        <nav class="navbar">
+            <div class=navbarune>
+
+                <a href="./evenements.html"> Evenements </a>
+                <a href="./apropos.html"> A propos </a>
+                <a href="./Contact.html"> Contact </a>
+
+            </div>
+            <div class="navbardeux">
+                <a href="./index.html">Acceuil</a>
+                <a href="./Boutique.html">Boutique</a>
+            </div>
+        </nav>
+        <div class="search">
+            <input type="search" id="search" name="recherche" value="">
+            <i id="shop" class="fa-solid fa-cart-shopping" style="color: #030303"; ></i>
+            <i id="userLogo" class="fa-solid fa-user" style="color: #000000;"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="inscription">
+            <article class="inscription">
+                <form action="" method="get">
+                    <div class="formUn">
+                        <label for="name">Votre nom :</label>
+                        <input type="text" name="name" id="name" required>
+                        <label for="surname">Votre prénom :</label>
+                        <input type="text" name="surname" id="surname" required>
+                        <label for="CodePostale">Code Postale</label>
+                        <input type="number" name="CodePostale" max="99999" required>
+                    </div>
+                    <div class="formDeux">
+                        <label for="Ville">Votre ville :</label>
+                        <input type="text" name="Ville" id="Ville" required>
+                        <label for="adress">Votre adresse :</label>
+                        <input type="text" name="adress" id="adress" required>
+                        <label for="mail">Votre Adresse mail :</label>
+                        <input type="email" name="mail" id="mail" required placeholder="@mail.com" >
+                    </div>
+                    <input type="submit" value="Validez votre inscription !" id="Validation">
+                </form>
+                <img id="logo" src="images/logo1.svg" alt="mon jolie logo">
+                <div id="lien">
+                <a  href="">Inscris toi via <img id="google"src="images/google-icon.svg" alt="Logo de google"></a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="contact">
+            <h4>Nous contacter :</h4>
+            <h3><i class="fa-solid fa-phone"></i>06.35.26.98.74</h3>
+            <h3><i class="fa-solid fa-envelope"></i>vievievitraux@gmail.com</h3>
+        </div> 
+
+        <div id="news">
+            <label for="mailon">Inscription à notre Newsletter :</label>
+            <input type="email" id="newsletter" name="mailon">
+            <div class="cgv">
+                <a href="./CG.html">Conditions Générales</a>,
+                <a href="./ML.html">Mentions Légales</a>,
+                <a href="./DP.html">Données Personnelles</a>,
+            </div>
+        </div>
+        <div class="reseau">
+            <h4 class="foot">Mes réseaux :</h4>
+            <ul class="liste_foother">
+                <li><i class="fa-brands fa-facebook" style="color: #030303;"></i></li>
+                <li><i class="fa-brands fa-instagram" style="color: #030303;"></i></li>
+                <li><i class="fa-brands fa-twitter" style="color: black;"></i></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/7658c89548.js" crossorigin="anonymous"></script>
+
+</html>

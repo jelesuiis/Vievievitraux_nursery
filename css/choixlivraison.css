@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url(../font/Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sansita';
+    src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
+}
+
+:root {
+    --couleurBody: #1D1C1C;
+    --couleurFondElement: #554D74;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--couleurBody);
+    width: 100%;
+    height: 1000px;
+}
+
+main {
+    width: 100%;
+    height: 1000px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+   margin-bottom: 100px;
+   color: white;
+   font-family: sansita ;
+   margin-left: 30px;
+}
+
+.livraison {
+    width: 90%;
+    height: 300px;
+    background-color: var(--couleurFondElement);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    margin: 15px 0;
+}
+
+main a:last-of-type {
+    text-decoration: none;
+    background-color: #554D74;
+    color: white;
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 15px;
+    width: 100px;
+    text-align: center;
+    align-self: flex-end;
+    margin-right: 200px;
+    margin-top: 50px;
+    
+}

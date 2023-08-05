@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url(../font/Tangerine-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'sansita';
+    src: url(../font/SansitaSwashed-VariableFont_wght.ttf);
+}
+
+:root {
+    --couleurBody: #1D1C1C;
+    --couleurFondElement: #554D74;
+}
+
+body {
+    background-color: #1D1C1C;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: auto;
+    height: auto;
+    max-height: 1000px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color : white;
+    font-family: 'sansita';
+}
+
+
+section{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    border : 3px solid white;
+    border-radius: 20%;
+    box-shadow: 0 5px 5px;
+    background-color: #554D74;
+    padding: 20px;
+    color: white;
+}
+
+#comptegauche{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+#comptedroite{
+    margin: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+article{
+    text-decoration: none;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.photoprofil{
+    width: 100px;
+    height:100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 12px;
+    border: 5px solid white;
+    box-shadow: 0 4px 4px;
+    border-radius: 40%;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+
+#mesinfos{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.historique{
+    border: solid 3px white;
+    border-radius: 30%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 10px;
+}
+
+#monhistorique{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+

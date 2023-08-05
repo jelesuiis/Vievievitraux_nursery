@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    
+    <title>vievievitraux</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="./index.html">
+                <img id="logoimg" src="images/logo1.svg" alt="mon jolie logo">
+            </a>
+        </div>
+        <div class="titre">
+            <h1 id="title">Vie Vie Vitraux</h1>
+            <img src="images/vague.svg" alt="" id="vague">
+        </div>
+        <nav class="navbar">
+            <div class=navbarune>
+
+                <a href=""> Evenements </a>
+                <a href="./apropos.html"> A propos </a>
+                <a href="./Contact.html"> Contact </a>
+
+            </div>
+            <div class="navbardeux">
+                <a href="./index.html">Accueil</a>
+                <a href="./Boutique.html">Boutique</a>
+            </div>
+        </nav>
+        <div class="search">
+            <input type="search" id="search" name="recherche" value="">
+            <a href="./panier.html">
+                <i id="shop" class="fa-solid fa-cart-shopping" style= "color: #030303;"></i>
+            </a>
+            <a href="./moncompte.html">
+                <i id="userLogo" class="fa-solid fa-user" style="color: #000000;"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        
+        <form id="form">
+
+            <h2>Formulaire à compléter pour les demandes de devis d'informations:</h2><br>
+
+            <label for="nom">Nom*:</label><br>
+            <input type="text" name="nom" id="nom" required><br>
+
+            <label for="prénom">Prénom*:</label><br>
+            <input type="text" name="prénom" id="prénom" required><br>
+
+            <label for="mail">Adresse e-mail*:</label><br>
+            <input type="email" name="mail" id="mail" required><br>
+
+            <label for="demande">Nature de la demande</label><br>
+            <input type="text" name="titre" id="titre"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea name="" id="" cols="50" rows="10" required> 
+     Ajouter votre message...</textarea><br>
+     
+            <input type="submit" value="Envoyer" id="envoyer"><br>
+
+        </form>
+    
+    <section id="popup">
+        <h2>Message bien envoyer</h2><br>
+        <p>Je vous remercie de l’attention que vous apportez à notre site.</p><br>
+    </section>
+
+    <section id="infos">
+        <p>Adresse de vievievitraux:</p>
+        <p class="p">21 rue des artistes,</p> 
+        <p class="p">75003 Paris.</p>
+        <p>Numéro de téléphone de vievievitraux: </p>
+        <p class="p"> 06.35.26.98.74</p>
+        <p>Adresse mail de vievievitraux:</p> 
+        <p class="p">vievievitraux@gmail.com</p><br>
+
+        <h3>Plan</h3>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.9185124463!2d2.347035!3d48.85885484999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1690299658130!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="contact">
+            <h4>Nous contacter :</h4>
+            <h3><i class="fa-solid fa-phone"></i>06.35.26.98.74</h3>
+            <h3><i class="fa-solid fa-envelope"></i>vievievitraux@gmail.com</h3>
+        </div>
+
+        <div id="news">
+            <label for="mailon">Inscription à notre Newsletter :</label>
+            <input type="email" id="newsletter" name="mailon">
+            <div class="cgv">
+                <a href="./CG.html">Conditions Générales</a>,
+                <a href="./ML.html">Mentions Légales</a>,
+                <a href="./DP.html">Données Personnelles</a>,
+            </div>
+        </div>
+        <div class="reseau">
+            <h4 class="foot">Mes réseaux :</h4>
+            <ul class="liste_foother">
+                <li><i class="fa-brands fa-facebook" style="color: #030303;" ></i></li>
+                <li><i class="fa-brands fa-instagram" style="color: #030303;"></i></li>
+                <li><i class="fa-brands fa-twitter" style="color: black;"></i></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+<script src="https://kit.fontawesome.com/7658c89548.js" crossorigin="anonymous"></script>
+<script src="./js/contact.js"></script>
+</html>    
